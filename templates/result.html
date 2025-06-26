@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Short URL</title>
+</head>
+<body>
+    <h2>Your Short URL:</h2>
+    <a href="{{ short_url }}" target="_blank">{{ short_url }}</a>
+    <br><br>
+    <a href="{{ url_for('index') }}">Shorten another</a>
+</body>
+</html>
