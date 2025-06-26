@@ -28,6 +28,7 @@ def redirect_to_url(short_code):
     long_url = url_mapping.get(short_code)
     if long_url:
         return redirect(long_url)
+    print("sdfsd")
     return "URL not found!", 404
 
 if __name__ == '__main__':
